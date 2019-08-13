@@ -4,10 +4,12 @@ class ContentLeft extends Component {
   render() {
     return (
       <div>
+        {/* begin slide banner */}
+
         <div
           id="carouselExampleIndicators"
           className="carousel slide"
-          data-ride="carousel"
+          data-ride=""
         >
           <ol className="carousel-indicators">
             <li
@@ -61,216 +63,45 @@ class ContentLeft extends Component {
           </a>
         </div>
 
-        <div className="music-to">
+        {/* end slide banner */}
+
+        {/* begin music top */}
+
+        {/* <div className="music-top">
           <p className="tittle-music-relax">MUSIC TOP</p>
+            <div className="box-music-top">
+              <div className="stt-music-top">1</div>
 
-          <div className="box-music-top">
-            <div className="stt-music-top">1</div>
+              <div className="line-music-top">-</div>
 
-            <div className="line-music-top">-</div>
+              <img
+                className="image-music-top"
+                src="https://photo-resize-zmp3.zadn.vn/w94_r1x1_jpeg/cover/8/3/6/c/836cf31f036fb8f89b78cfd07cd77477.jpg"
+                alt=""
+              />
 
-            <img
-              className="image-music-top"
-              src="https://photo-resize-zmp3.zadn.vn/w94_r1x1_jpeg/cover/8/3/6/c/836cf31f036fb8f89b78cfd07cd77477.jpg"
-              alt=""
-            />
-
-            <div className="box-content-music-top">
-              <span className="music-name"> Khi người lớn cô đơn</span>
-              <br />
-              <a href="">
-                <span className="singer-name">Phạm Hồng Phước</span>
-              </a>
-            </div>
-          </div>
-          <br />
-          <div className="box-music-top">
-            <div className="stt-music-top">1</div>
-
-            <div className="line-music-top">-</div>
-
-            <img
-              className="image-music-top"
-              src="https://photo-resize-zmp3.zadn.vn/w94_r1x1_jpeg/cover/8/3/6/c/836cf31f036fb8f89b78cfd07cd77477.jpg"
-              alt=""
-            />
-
-            <div className="box-content-music-top">
-              <span className="music-name"> Khi người lớn cô đơn</span>
-              <br />
-              <a href="">
-                <span className="singer-name">Phạm Hồng Phước</span>
-              </a>
-            </div>
-          </div>
-          <br />
-          <div className="box-music-top">
-            <div className="stt-music-top">1</div>
-
-            <div className="line-music-top">-</div>
-
-            <img
-              className="image-music-top"
-              src="https://photo-resize-zmp3.zadn.vn/w94_r1x1_jpeg/cover/8/3/6/c/836cf31f036fb8f89b78cfd07cd77477.jpg"
-              alt=""
-            />
-
-            <div className="box-content-music-top">
-              <span className="music-name"> Khi người lớn cô đơn</span>
-              <br />
-              <a href="">
-                <span className="singer-name">Phạm Hồng Phước</span>
-              </a>
-            </div>
-          </div>
-          <br />
-          <div className="box-music-top">
-            <div className="stt-music-top">1</div>
-
-            <div className="line-music-top">-</div>
-
-            <img
-              className="image-music-top"
-              src="https://photo-resize-zmp3.zadn.vn/w94_r1x1_jpeg/cover/8/3/6/c/836cf31f036fb8f89b78cfd07cd77477.jpg"
-              alt=""
-            />
-
-            <div className="box-content-music-top">
-              <span className="music-name"> Khi người lớn cô đơn</span>
-              <br />
-              <a href="">
-                <span className="singer-name">Phạm Hồng Phước</span>
-              </a>
-            </div>
-          </div>
-          <br />
-          <div className="box-music-top">
-            <div className="stt-music-top">1</div>
-
-            <div className="line-music-top">-</div>
-
-            <img
-              className="image-music-top"
-              src="https://photo-resize-zmp3.zadn.vn/w94_r1x1_jpeg/cover/8/3/6/c/836cf31f036fb8f89b78cfd07cd77477.jpg"
-              alt=""
-            />
-
-            <div className="box-content-music-top">
-              <span className="music-name"> Khi người lớn cô đơn</span>
-              <br />
-              <a href="">
-                <span className="singer-name">Phạm Hồng Phước</span>
-              </a>
-            </div>
-          </div>
-          <br />
-          <div className="box-music-top">
-            <div className="stt-music-top">1</div>
-
-            <div className="line-music-top">-</div>
-
-            <img
-              className="image-music-top"
-              src="https://photo-resize-zmp3.zadn.vn/w94_r1x1_jpeg/cover/8/3/6/c/836cf31f036fb8f89b78cfd07cd77477.jpg"
-              alt=""
-            />
-
-            <div className="box-content-music-top">
-              <span className="music-name"> Khi người lớn cô đơn</span>
-              <br />
-              <a href="">
-                <span className="singer-name">Phạm Hồng Phước</span>
-              </a>
-            </div>
-          </div>
-          <br />
-          <div className="box-music-top">
-            <div className="stt-music-top">1</div>
-
-            <div className="line-music-top">-</div>
-
-            <img
-              className="image-music-top"
-              src="https://photo-resize-zmp3.zadn.vn/w94_r1x1_jpeg/cover/8/3/6/c/836cf31f036fb8f89b78cfd07cd77477.jpg"
-              alt=""
-            />
-
-            <div className="box-content-music-top">
-              <span className="music-name"> Khi người lớn cô đơn</span>
-              <br />
-              <a href="">
-                <span className="singer-name">Phạm Hồng Phước</span>
-              </a>
-            </div>
-          </div>
-          <br />
-          <div className="box-music-top">
-            <div className="stt-music-top">1</div>
-
-            <div className="line-music-top">-</div>
-
-            <img
-              className="image-music-top"
-              src="https://photo-resize-zmp3.zadn.vn/w94_r1x1_jpeg/cover/8/3/6/c/836cf31f036fb8f89b78cfd07cd77477.jpg"
-              alt=""
-            />
-
-            <div className="box-content-music-top">
-              <span className="music-name"> Khi người lớn cô đơn</span>
-              <br />
-              <a href="">
-                <span className="singer-name">Phạm Hồng Phước</span>
-              </a>
-            </div>
-          </div>
-          <br />
-          <div className="box-music-top">
-            <div className="stt-music-top">1</div>
-
-            <div className="line-music-top">-</div>
-
-            <img
-              className="image-music-top"
-              src="https://photo-resize-zmp3.zadn.vn/w94_r1x1_jpeg/cover/8/3/6/c/836cf31f036fb8f89b78cfd07cd77477.jpg"
-              alt=""
-            />
-
-            <div className="box-content-music-top">
-              <span className="music-name"> Khi người lớn cô đơn</span>
-              <br />
-              <a href="">
-                <span className="singer-name">Phạm Hồng Phước</span>
-              </a>
-            </div>
-          </div>
-          <br />
-          <div className="box-music-top">
-            <div className="stt-music-top">1</div>
-
-            <div className="line-music-top">-</div>
-
-            <img
-              className="image-music-top"
-              src="https://photo-resize-zmp3.zadn.vn/w94_r1x1_jpeg/cover/8/3/6/c/836cf31f036fb8f89b78cfd07cd77477.jpg"
-              alt=""
-            />
-
-            <div className="box-content-music-top">
-              <span className="music-name"> Khi người lớn cô đơn</span>
-              <br />
-              <a href="">
-                <span className="singer-name">Phạm Hồng Phước</span>
-              </a>
+              <div className="box-content-music-top">
+                <span className="music-name"> Khi người lớn cô đơn</span>
+                <br />
+                <a href="">
+                  <span className="singer-name">Phạm Hồng Phước</span>
+                </a>
+              </div>
             </div>
 
-            <div className="music-view">97,600</div>
-          </div>
-
+            <div className="">
+              <h3>fohaohf</h3>
+            </div>
+            <div className="">
+              <h3>18,261</h3>
+            </div>
           <br />
-        </div>
+        </div> */}
 
-        {/* âm nhạc thư giãn */}
+        {/* end music top */}
 
+        {/* begin âm nhạc thư giãn */}
+        
         <div className="music-relax">
           <p className="tittle-music-relax">ÂM NHẠC THƯ GIÃN</p>
           <div className="row no-gutters">
@@ -387,13 +218,13 @@ class ContentLeft extends Component {
               </div>
             </div>
           </div>
-        </div>
+        </div> 
 
         {/* end âm nhạc thư giãn */}
 
         {/* begin video hot */}
 
-        <div className="video-hot">
+         <div className="video-hot">
           <p className="tittle-music-relax">ALBUM HOT</p>
 
           <div className="row no-gutters">
@@ -543,11 +374,13 @@ class ContentLeft extends Component {
             </div>
           </div>
         </div>
+         
+
         {/* end video hot  */}
 
         {/* begin album hot */}
 
-        <div className="video-hot">
+         <div className="video-hot">
           <p className="tittle-music-relax">VIDEO HOT</p>
 
           <div className="row no-gutters">
@@ -696,14 +529,15 @@ class ContentLeft extends Component {
               </div>
             </div>
           </div>
-        </div>
+        </div> 
 
         {/* end album hot  */}
+
 
         <div className="row ">
           {/* begin music viet hot  */}
 
-          <div className="col-md-6 col-sm-6 col-lg-6 col-6 music-viet-hot">
+           <div className="col-md-6 col-sm-6 col-lg-6 col-6 music-viet-hot">
             <p className="tittle-music-relax">NHẠC VIỆT HOT</p>
 
             <div className="box-music-viet">
@@ -862,7 +696,7 @@ class ContentLeft extends Component {
 
           {/* begin music viet new  */}
 
-          <div className="col-md-6 col-sm-6 col-lg-6 col-6 music-viet-new">
+           <div className="col-md-6 col-sm-6 col-lg-6 col-6 music-viet-new">
             <p className="tittle-music-relax">NHẠC VIỆT MỚI</p>
 
             <div className="box-music-viet">
@@ -1019,6 +853,8 @@ class ContentLeft extends Component {
 
           {/* end music viet new  */}
         </div>
+      
+      
       </div>
     );
   }

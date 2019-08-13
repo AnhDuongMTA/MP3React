@@ -4,3 +4,7 @@
     object-fit: cover;
     margin: 15px 0;
 }
+.no-gutters {
+    padding-right: 0;
+    padding-left: 0;
+  }
