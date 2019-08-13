@@ -5,15 +5,12 @@ class Banner extends Component {
     return (
       <div>
         <div className="container">
-          <div className="row">
-            <div className="col-md-12 col-sm-12 col-lg-12">
+          <div className="col-md-12 col-sm-12 col-lg-12 no-gutters">
             <img
               className="banner-image"
               src="https://hinhnendep.xyz/wp-content/uploads/2016/08/hinh-anh-bien-dep-nhat-the-gioi-1.jpg"
               alt=""
             />
-            </div>
-            
           </div>
         </div>
       </div>
